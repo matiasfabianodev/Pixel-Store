@@ -1,0 +1,303 @@
+nav {
+        border-bottom: 2px solid #000000;
+    }
+
+body 
+    {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; 
+        margin: 0;
+        font-family: Verdana, sans-serif;
+        background-color: #3d3d3d;
+    }
+
+main 
+    {
+        flex: 1;
+    }
+
+.footer-estilo 
+    {
+        background-color: #252525;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: auto;
+        border-top: 2px solid #000000;
+    }
+
+.ptext
+    {
+        text-align: justify;
+        color: #cfcfcf;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+h3
+    {
+        color: #d9db45;
+        text-align: center;
+        font-size: 24px;
+    }
+
+.paginacion-contenedor 
+    {
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        gap: 15px;                          
+        margin: 30px 0;
+        width: 100%;                       
+    }
+
+.texto-pagina 
+    {
+        font-size: 16px;
+        font-weight: bold;
+        color:  #d9db45;
+    }
+
+.card-gamer:hover 
+    {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(217, 219, 69, 0.15) !important;
+        border: 1px solid rgba(217, 219, 69, 0.3) !important;
+    }
+
+.card-gamer:hover .img-juego 
+    {
+        transform: scale(1.06);
+    }
+
+.btn-ver-detalles:hover 
+    {
+        background-color: #37d6db !important;
+        color: #000000 !important;
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+
+.nav-link 
+    {
+        color: #ffffff !important;
+        font-weight: normal;
+    }
+
+.nav-link.active 
+    {
+        color: #d9db45 !important;
+        font-weight: bold;
+    }
+
+.input-custom-gamer 
+    {
+        border-radius: 8px !important;
+        border: 1px solid #444444 !important;
+        transition: all 0.25s ease-in-out !important;
+    }
+
+.input-custom-gamer:focus 
+    {
+        background-color: #1a1a1a !important;
+        border-color: #d9db45 !important;
+        color: #ffffff !important;
+        box-shadow: 0 0 10px rgba(217, 219, 69, 0.3) !important;
+    }
+
+.btn-enviar-gamer 
+    {
+        background-color: #d9db45 !important;
+        color: #121212 !important;
+        border-radius: 8px !important;
+        border: none !important;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        transition: all 0.2s ease;
+    }
+
+.btn-enviar-gamer:hover 
+    {
+        background-color: #ee8e21 !important;
+        color: #ffffff !important;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(238, 142, 33, 0.4);
+        cursor: pointer;
+    }
+    
+.custom-navbar 
+    {
+        background-color: rgba(20, 20, 20, 0.95) !important;
+        backdrop-filter: blur(10px);
+        border-bottom: 2px solid #616161;
+        transition: all 0.3s ease;
+    }
+
+.tracking-wider 
+    { 
+        letter-spacing: 1.5px; 
+        font-weight: 800; 
+    }
+
+.custom-link 
+    {
+        color: #949aae !important;
+        font-weight: 500;
+        font-size: 0.95rem;
+        padding: 6px 12px !important;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+    }
+
+.custom-link:hover, .custom-link.active 
+    {
+        color: #00f2fe !important;
+        background-color: rgba(0, 242, 254, 0.05);
+    }
+
+.btn-login 
+    {
+        color: #d9db45 !important;
+        border: 1px solid rgba(217, 219, 69, 0.3) !important;
+        background: transparent;
+        transition: all 0.2s;
+    }
+
+.btn-login:hover 
+    {
+        background: #d9db45 !important;
+        color: #0f1015 !important;
+        box-shadow: 0 0 12px rgba(217, 219, 69, 0.3);
+    }
+
+.btn-register 
+    {
+        background: #00f2fe !important;
+        color: #0f1015 !important;
+        border: 1px solid #00f2fe !important;
+        transition: all 0.2s;
+    }
+
+.btn-register:hover 
+    {
+        background: transparent !important;
+        color: #00f2fe !important;
+        box-shadow: 0 0 12px rgba(0, 242, 254, 0.4);
+    }
+
+.btn-permisos
+    {
+        color: #0f1015 !important;
+        background-color: #eae307 !important;
+        border: 1px solid #c2b200 !important;
+        transition: all 0.2s;
+    }
+
+.btn-permisos:hover 
+    {
+        background: transparent !important;
+        color: #ffffff !important;
+    }
+
+.btn-catalogo 
+    {
+        color: #0f1015 !important;
+        background-color: #875408 !important;
+        border: 1px solid #a55d10 !important;
+        transition: all 0.2s;
+    }
+
+.btn-catalogo:hover 
+    {
+        background: transparent !important;
+        color: #ffffff !important;
+    }
+
+.btn-logout 
+    {
+        color: #000000 !important;
+        background-color: #b81313 !important;
+        border: 1px solid #2e0202 !important;
+        transition: all 0.2s;
+    }
+
+.btn-logout:hover 
+    {
+        background: transparent !important;
+        color: #ffffff !important;
+        border: 1px solid #b81313 !important;
+    }
+
+.custom-footer 
+    {
+        background-color: rgba(0, 0, 0, 0.95);
+        border-top: 3px solid #00f2fe;
+    }
+
+.small-title 
+    {
+        color: #00f2fe;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+
+.footer-link 
+    {
+        color: #6c7284;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: all 0.2s ease-in-out;
+        display: inline-block;
+    }
+
+.footer-link:hover 
+    {
+        color: #00f2fe;
+        transform: translateX(4px);
+    }
+
+.status-badge 
+    {
+        background-color: rgba(0, 242, 254, 0.1);
+        color: #00f2fe;
+        border: 1px solid rgba(0, 242, 254, 0.2);
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+
+.social-tag 
+    {
+        font-size: 0.75rem;
+        background: #181920;
+        color: #949aae;
+        padding: 4px 10px;
+        border-radius: 4px;
+        border: 1px solid #232631;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+.social-tag:hover 
+    {
+        border-color: #d9db45;
+        color: #d9db45;
+    }
+
+.btn-paginado-num 
+    {
+        color: #ffc107 !important;
+        background-color: transparent !important;
+        border: none !important;
+        transition: all 0.2s ease-in-out;
+    }
+    
+.btn-paginado-num:hover 
+    {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+
